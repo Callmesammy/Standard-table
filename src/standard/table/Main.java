@@ -42,17 +42,17 @@ public class Main extends javax.swing.JFrame {
 
         Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {"44", "4444", null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "S/NO", "Name", "Description", "Occupation", "Signature "
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false
+                true, true, false, false, true
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
