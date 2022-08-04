@@ -2,7 +2,6 @@
 package standard.table;
 
 import java.awt.Color;
-import java.awt.Font;
 import javax.swing.JLabel;
 import javax.swing.border.EmptyBorder;
 
@@ -13,14 +12,13 @@ import javax.swing.border.EmptyBorder;
 public class TableHeader extends JLabel{
 
     public TableHeader(String text) {
-    super(text);
+        super(text);
+        setForeground(new Color(150,31,219));
         setOpaque(false);
-        setBackground(new Color(250,250,250));
-        setFont(new Font("sansserif", 1, 13));
-        setForeground(new Color(102,102,102));
-        setBorder(new EmptyBorder(10, 5, 10, 5));
+        setBackground(Color.WHITE);
+        setBorder(new EmptyBorder(10,5,10,5));
+        
     }
-    
     
     
 }
