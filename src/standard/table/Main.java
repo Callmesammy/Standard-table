@@ -25,7 +25,8 @@ private void init(){
     table1.addRow(new Object[]{"Moses","Imoh","admin","100",Statustype.SUCCESS});
     table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.PENDING});
     table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.FAILED});
-    table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.SUCCESS});table1.addRow(new Object[]{"Moses","Imoh","admin","100",Statustype.SUCCESS});
+    table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.SUCCESS});
+    table1.addRow(new Object[]{"Moses","Imoh","admin","100",Statustype.SUCCESS});
     table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.PENDING});
     table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.FAILED});
     table1.addRow(new Object[]{"James","Aliko","student","grunds",Statustype.SUCCESS});

@@ -20,7 +20,6 @@ public class Tablecarrier extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
 
         Status.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Status.setText("cellType1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

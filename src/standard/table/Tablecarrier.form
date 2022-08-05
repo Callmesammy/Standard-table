@@ -42,7 +42,6 @@
     <Component class="standard.table.cellType" name="Status">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="cellType1"/>
       </Properties>
     </Component>
   </SubComponents>
